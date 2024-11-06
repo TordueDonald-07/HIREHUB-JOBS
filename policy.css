@@ -1,0 +1,42 @@
+.privacy-policies-container {
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+.privacy-policies-container h1, 
+.privacy-policies-container h2 {
+    color: #444;
+}
+
+.privacy-policies-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.privacy-policies-container ul li {
+    margin-bottom: 20px;
+}
+.privacy-policies-container .checkmark {
+    color: green;
+    font-weight: bold;
+}
+.privacy-policies-container .print-btn {
+    margin: 20px 0;
+}
+
+.print-btn button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.print-btn button:hover {
+    background-color: darkmagenta;
+    transform: translateY(-5px);
+}

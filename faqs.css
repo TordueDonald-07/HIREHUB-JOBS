@@ -1,0 +1,103 @@
+/* general style for the faqs section */
+.faqs-container {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.tab.active {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+}
+
+.accordion {
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.accordion-header {
+    background-color: #f9f9f9;
+    padding: 15px;
+    cursor: pointer;
+   border: 1px solid #e0e0e0;
+    font-weight: bold;
+    color: #28a745;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.accordion-body {
+    display: none;
+    padding: 15px;
+    border-top: none;
+    transition: 0.8s ease;
+}
+
+.accordion-header.open .fas {
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+}
+
+.job-bottom-content {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.btn-botton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.btn-outline-pro {
+    background-color: transparent;
+    color: #28a745;
+    border: 2px solid #28a745;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #28a745;
+    transform: translateY(-10px);
+}
+
+.btn-outline-pro:hover {
+    color: #f5f5f5;
+    background-color: #28a745;
+    transform: translateY(-10px);
+}

@@ -1,0 +1,295 @@
+/* general style */
+.container {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.container .results-count {
+    font-size: 16px;
+    color: #6c757d;
+    font-weight: 600;
+}
+.container .select-wrapper {
+    display: flex;
+    gap: 10px;
+}
+.container select {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.container select:focus {
+    outline: none;
+}
+
+/* Search and Filter Section */
+.job-board-search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .job-board-input {
+    padding: 10px 5px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    flex: 1;
+  }
+  
+  .job-board-search {
+    position: relative;
+    
+  }
+  
+  .job-board-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .job-board-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-y: auto;
+  }
+  
+  .job-board-filter-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .settings-btn {
+    background-color: #007b43;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.filter-btn:hover {
+  background-color: #4338ca; /* Darker indigo */
+}
+
+/* Optional: Adding some focus styles */
+.filter-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+    
+  .job-board-select,
+  .job-board-input,
+  .job-board-filter-btn,
+  .settings-btn {
+    flex: 1;
+  }
+
+
+  
+  /* cards style */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.name-rate {
+    flex-grow: 1;
+}
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: #28a745;
+}
+.rate {
+    color: #00bcd4;
+}
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    margin-left: auto;
+    left: 78px;
+    top: 30px;
+    position: absolute;
+}
+
+/* Ratings section start here */
+.rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.jobs-done {
+    color: #444;
+}
+
+.save-btn {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.save-btn i {
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.save-btn i:hover {
+    color: #fff;
+    background: #dc3545;
+}
+
+.proffession {
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 15px;
+}
+.tag {
+    background-color: #f1f3f5;
+    color: #495057;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+.description {
+    color: #6c757d;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hire-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.view-button {
+    border: 1px solid #28a745;
+    color: #495057;
+    transition: 0.3s ease;
+}
+
+.view-button:hover {
+    border: 1px solid #28a745;
+    color: #fff;
+    transition: 0.3s ease;
+    background: #28a745;
+}
+
+.card .badge {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+/* pagination start here */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+.pagination button {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    color: #6c757d;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pagination button:hover, .pagination button.active {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+.pagination button.arrow {
+    font-size: 18px;
+    line-height: 1;
+}

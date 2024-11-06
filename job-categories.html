@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireHub Job Website</title>
+    <!-- Include FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="job-categories.css">
+    <link rel="stylesheet" href="job-list.css">
+</head>
+<body>
+    
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <span><i class="fas fa-map-marker-alt"></i> Your Location: Lagos City</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><span class="header-logo">H</span> Hire<span>Hub</span></a>
+            </div>
+    
+            <!-- Hamburger Icon for Smaller Screens -->
+            <div class="menu-icon">
+                <i class="fas fa-outdent"></i>
+            </div>
+    
+            <ul class="nav-list">
+                <!-- Home with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="index.html" class="dropdown-toggle">Home <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="index.html">Home Style 2</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Company with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Company <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="about.html">About Us</a>
+                            <a href="services.html">Services</a>
+                            <a href="team.html">Team</a>
+                            <a href="pricing.html">Pricing</a>
+                            <a href="policy.html">Privacy Policy</a>
+                            <a href="faqs.html">FAQS</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Pages with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Pages <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="sign-up.html">Sign Up</a>
+                            <a href="sign-in.html">Sign In</a>
+                            <a href="sign-out.html">Sign Out</a>
+                            <a href="reset-password.html">Reset Password</a>
+                            <a href="candidates-list.html">Candidate List</a>
+                            <a href="candidates-details.html">Candidate Details</a>
+                            <a href="company-list.html">Company List</a>
+                            <a href="company-details.html">Company Details</a>
+                            <a href="job-list.html">Job List</a>
+                            <a href="job-details.html">Job Details</a>
+                            <a href="job-categories.html">Job Categories</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Blog with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Blog <i class="fas fa-chevron-down"></i></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="blog.html">Blog List</a>
+                            <a href="blog-details.html">Blog Details</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Contact without Dropdown -->
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+    
+                 <!-- Right-side User Profile -->
+            <div class="button-container">
+                <!-- Sign In Button -->
+                <a href="sign-in.html" class="btn-outline">
+                    <i class="fas fa-sign-in-alt"></i> Sign In
+                </a>
+                
+                <!-- Add Job Button -->
+                <a href="#" class="btn-solid">
+                    Add A Job
+                </a>
+            </div>
+            </ul>
+           
+            
+        </nav>
+    </header>
+    
+    <!-- top banner start here -->
+<div class="banner job-list-banner">
+    <div class="banner-content">
+        <h1>Browse Job</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="job-listing-pages"><h2>Home</h2><i class="fas fa-chevron-right"></i><h2>Pages</h2><i class="fas fa-chevron-right"></i><h2>Jobs List</h2></div>
+    </div>
+</div>
+
+    <!-- job categories start here -->
+     <section class="job-categories-grid-container">
+        <div class="job-live-content">
+            <span class="live-jobs">Jobs Live Today</span>
+            <h1>Browse Job By Categories</h1>
+            <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
+        </div>
+        <div class="categories-grid">
+            <div class="job-category-grid">
+                <div class="category-item">
+                    <span class="category-name">Accounting & Finance</span>
+                    <span class="job-count">25</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Bank Jobs</span>
+                    <span class="job-count">10</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Data Entry Job</span>
+                    <span class="job-count">71</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Purchasing Manager</span>
+                    <span class="job-count">40</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Project Manager</span>
+                    <span class="job-count">86</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Education & training</span>
+                    <span class="job-count">47</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Marketing & Advertising</span>
+                    <span class="job-count">47</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Catering & Tourism</span>
+                    <span class="job-count">47</span>
+                </div>
+            </div>
+            <div class="job-category-grid">
+                <div class="category-item">
+                    <span class="category-name">Government Jobs</span>
+                    <span class="job-count">120</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Defence Jobs</span>
+                    <span class="job-count">73</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Teaching Jobs</span>
+                    <span class="job-count">88</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Retail & Customer Services</span>
+                    <span class="job-count">10</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Diploma Jobs</span>
+                    <span class="job-count">55</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Health Care Jobs</span>
+                    <span class="job-count">99</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Manufacturing & production</span>
+                    <span class="job-count">27</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Performing arts & media</span>
+                    <span class="job-count">11</span>
+                </div>
+            </div>
+            <div class="job-category-grid">
+                <div class="category-item">
+                    <span class="category-name">IT / Software Jobs</span>
+                    <span class="job-count">175</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Logistics / Transportation</span>
+                    <span class="job-count">60</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Sports Jobs</span>
+                    <span class="job-count">42</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Forest Worker</span>
+                    <span class="job-count">30</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Animal Care Worker</span>
+                    <span class="job-count">120</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Digital Marketing</span>
+                    <span class="job-count">88</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Administrative Officer</span>
+                    <span class="job-count">64</span>
+                </div>
+                <div class="category-item">
+                    <span class="category-name">Garage services</span>
+                    <span class="job-count">75</span>
+                </div>
+            </div>
+        </div>
+        <div class="job-bottom-content">
+        <h1>See everything about your employee at one place.</h1>
+        <p>Start working with Jobcy that can provide everything you need to generate awareness, drive traffic, connect.</p>
+        <div class="button-group">
+            <button class="btn-botton btn-primary">
+                <i class="fas fa-rocket"></i> Get Started Now
+            </button>
+            <button class="btn-botton btn-outline-pro">
+                <i class="fas fa-link"></i> Free Trial
+            </button>
+        </div>
+        </div>
+     </section>
+
+     <!-- Download App section Start Here -->
+     <section class="download-app-section">
+        <div class="download-app-content">
+          <h2>Download The App Free!</h2>
+          <p>Looking for a new job can be both exciting and daunting.<br>
+             Navigating the job market involves exploring various avenues.</p>
+          <div class="app-buttons">
+            <a href="#" class="app-store">
+              <img src="assets/app-store (1).png" alt="App Store">
+            </a>
+            <a href="#" class="google-play">
+              <img src="assets/play-store.png" alt="Google Play">
+            </a>
+          </div>
+        </div>
+        <div class="download-app-image">
+          <img src="assets/download.png" alt="Mobile App Preview">
+        </div>
+      </section>          
+      <!-- Download App section End Here -->
+    
+
+          <!-- footer starts -->
+           <section class="footer-container">
+            <div class="flyer">
+              <div class="flyer-content">
+                  <div class="flyer-text">
+                      <h2>Looking for a career change? Browse our job listings now!</h2>
+                      <p>Sociosqu eros cras magna phasellus conubia semper netus lectus lacinia mattis sed.</p>
+                      <a href="#" class="apply-button">APPLY NOW</a>
+                  </div>
+                  <div class="flyer-image"></div>
+              </div>
+           </section>
+    
+
+          <footer class="footer">              
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2>HireHub</h2>
+                    <p>Est class vel si sit orci rutrum at morbi commodo pellentesque. Faucibus sociosqu suspendisse integer id justo enim letius eleifend volutpat suscipit consectetur.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="#">Full Time</a></li>
+                        <li><a href="#">Part Time</a></li>
+                        <li><a href="#">Freelance</a></li>
+                        <li><a href="#">Internship</a></li>
+                        <li><a href="#">Work From Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News & Article</a></li>
+                        <li><a href="#">Legal Notice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Newsletter</h2>
+                    <p>Get exclusive deals by signing up to our Newsletter.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HireHub, All rights reserved. Design by Tordue Donald.</p>
+                <p>
+                    <a href="#">Term of use</a> | 
+                    <a href="#">Privacy policy</a> | 
+                    <a href="#">Cookie policy</a>
+                </p>
+            </div>
+        </footer>
+        <!-- footer ends -->
+    
+    <!-- Javascrip for the Testimonial slide Functionality  -->
+    <script>
+      const slider = document.querySelector('.testimonial-slider');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentIndex = 0;
+
+function updateSliderPosition() {
+  const cardWidth = document.querySelector('.testimonial-card').clientWidth;
+  slider.style.transform = `translateX(-${currentIndex * (cardWidth + 20)}px)`; // 20px is the margin between cards
+}
+
+nextBtn.addEventListener('click', () => {
+  const totalCards = document.querySelectorAll('.testimonial-card').length;
+  if (currentIndex < totalCards - 1) {
+    currentIndex++;
+    updateSliderPosition();
+  }
+});
+
+prevBtn.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSliderPosition();
+  }
+});
+
+/* To handle window resize for responsive sliding */
+window.addEventListener('resize', updateSliderPosition);
+
+    </script>     
+
+    <!-- Javascrip for the Step Functionality  -->
+    <script>
+      function showStep(stepNumber) {
+  const stepImage = document.getElementById('step-image');
+  
+  // Remove 'active' class from all steps
+  document.querySelectorAll('.step').forEach(step => {
+    step.classList.remove('active');
+  });
+
+  // Add 'active' class to the clicked step
+  document.querySelectorAll('.step')[stepNumber - 1].classList.add('active');
+
+  // Change image based on the step number
+  switch (stepNumber) {
+    case 1:
+      stepImage.src = 'assets/process-01.png';
+      break;
+    case 2:
+      stepImage.src = 'assets/process-02.png';
+      break;
+    case 3:
+      stepImage.src = 'assets/process-03.png';
+      break;
+    default:
+      stepImage.src = 'assets/process-01.png';
+  }
+}
+
+    </script>
+
+    <!-- Javascrip for the Job Category Functionality  -->
+    <script>
+        const categories = [
+            { icon: 'fa-laptop-code', title: 'IT & Software', jobCount: 2024 },
+            { icon: 'fa-microchip', title: 'Technology', jobCount: 1250 },
+            { icon: 'fa-landmark', title: 'Government', jobCount: 802 },
+            { icon: 'fa-chart-pie', title: 'Accounting / Finance', jobCount: 577 },
+            { icon: 'fa-hard-hat', title: 'Construction / Facilities', jobCount: 285 },
+            { icon: 'fa-satellite-dish', title: 'Tele-communications', jobCount: 495 },
+            { icon: 'fa-palette', title: 'Design & Multimedia', jobCount: 1045 },
+            { icon: 'fa-users', title: 'Human Resource', jobCount: 1516 },
+            { icon: 'fa-users', title: 'Bank Job', jobCount: 2616 },
+            { icon: 'fa-users', title: 'Data Entry Job', jobCount: 1236 }
+        ];
+
+        function createCategoryCard(category) {
+            return `
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas ${category.icon}"></i></div>
+                    <div class="category-title">${category.title}</div>
+                    <div class="category-jobs">${category.jobCount} Jobs</div>
+                </div>
+            `;
+        }
+
+        function renderCategories() {
+            const gridElement = document.getElementById('categoriesGrid');
+            gridElement.innerHTML = categories.map(createCategoryCard).join('');
+        }
+
+        document.addEventListener('DOMContentLoaded', renderCategories);
+    </script>
+
+    <!-- Javascrip for the Menu toggle  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuIcon = document.querySelector(".menu-icon");
+            const navList = document.querySelector(".nav-list");
+            const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+    
+            // Disable hover effects for dropdowns on smaller screens
+            const navItems = document.querySelectorAll('.nav-item.dropdown');
+    
+            // Disable all hover events by removing listeners
+            navItems.forEach(function(dropdown) {
+                dropdown.addEventListener('mouseenter', function(event) {
+                    event.preventDefault(); // Prevent any hover effect
+                });
+                dropdown.addEventListener('mouseover', function(event) {
+                    event.preventDefault(); // Disable hover behavior
+                });
+            });
+    
+            // Toggle mobile menu slide-in/out
+            menuIcon.addEventListener("click", function () {
+                if (navList.classList.contains("show")) {
+                    navList.classList.remove("show");
+                    navList.classList.add("hide");
+                } else {
+                    navList.classList.remove("hide");
+                    navList.classList.add("show");
+                }
+            });
+    
+            // Handle accordion click functionality for dropdowns
+            dropdownToggles.forEach(function (toggle) {
+                toggle.addEventListener("click", function (e) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    const dropdownMenu = this.nextElementSibling;
+    
+                    // If this dropdown is already open, close it
+                    if (dropdownMenu.classList.contains("show")) {
+                        dropdownMenu.classList.remove("show");
+                    } else {
+                        // Close any open dropdowns before opening the clicked one
+                        document.querySelectorAll(".dropdown-menu.show").forEach(function (menu) {
+                            menu.classList.remove("show");
+                        });
+                        dropdownMenu.classList.add("show");
+                    }
+                });
+            });
+    
+            // Close dropdowns when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".dropdown-menu.show").forEach(function (menu) {
+                        menu.classList.remove("show");
+                    });
+                }
+            });
+        });
+    </script>
+    
+    <!-- Include JS -->
+    <script src="script.js"></script>
+</body>
+</html>

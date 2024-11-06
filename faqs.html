@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireHub Job Website</title>
+    <!-- Include FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="job-list.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="policy.css">
+    <link rel="stylesheet" href="faqs.css">
+</head>
+<body>
+    
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <span><i class="fas fa-map-marker-alt"></i> Your Location: Lagos City</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><span class="header-logo">H</span> Hire<span>Hub</span></a>
+            </div>
+    
+            <!-- Hamburger Icon for Smaller Screens -->
+            <div class="menu-icon">
+                <i class="fas fa-outdent"></i>
+            </div>
+    
+            <ul class="nav-list">
+                <!-- Home with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="index.html" class="dropdown-toggle">Home <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="index.html">Home Style 2</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Company with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Company <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="about.html">About Us</a>
+                            <a href="services.html">Services</a>
+                            <a href="team.html">Team</a>
+                            <a href="pricing.html">Pricing</a>
+                            <a href="policy.html">Privacy Policy</a>
+                            <a href="faqs.html">FAQS</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Pages with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Pages <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="sign-up.html">Sign Up</a>
+                            <a href="sign-in.html">Sign In</a>
+                            <a href="sign-out.html">Sign Out</a>
+                            <a href="reset-password.html">Reset Password</a>
+                            <a href="candidates-list.html">Candidate List</a>
+                            <a href="candidates-details.html">Candidate Details</a>
+                            <a href="company-list.html">Company List</a>
+                            <a href="company-details.html">Company Details</a>
+                            <a href="job-list.html">Job List</a>
+                            <a href="job-details.html">Job Details</a>
+                            <a href="job-categories.html">Job Categories</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Blog with Dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Blog <i class="fas fa-chevron-down"></i></i></a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-column">
+                            <a href="blog.html">Blog List</a>
+                            <a href="blog-details.html">Blog Details</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Contact without Dropdown -->
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+    
+                 <!-- Right-side User Profile -->
+            <div class="button-container">
+                <!-- Sign In Button -->
+                <a href="sign-in.html" class="btn-outline">
+                    <i class="fas fa-sign-in-alt"></i> Sign In
+                </a>
+                
+                <!-- Add Job Button -->
+                <a href="#" class="btn-solid">
+                    Add A Job
+                </a>
+            </div>
+            </ul>
+           
+            
+        </nav>
+    </header>
+
+<!-- top banner start here -->
+<div class="banner job-list-banner">
+    <div class="banner-content">
+        <h1>Browse Job</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="job-listing-pages"><h2>Home</h2><i class="fas fa-chevron-right"></i><h2>Pages</h2><i class="fas fa-chevron-right"></i><h2>Pricing</h2></div>
+    </div>
+</div>
+
+<section class="faqs-container">
+    <div class="tabs">
+        <div class="tab active" data-tab="general">General</div>
+        <div class="tab" data-tab="buying">Buying</div>
+        <div class="tab" data-tab="payment">Payment</div>
+        <div class="tab" data-tab="support">Support</div>
+    </div>
+
+    <div id="general" class="accordion-section">
+        <div class="accordion">
+            <div class="accordion-header open">
+                <span>Where does it come from?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body" style="display: block;">
+                <p>The origin of the concept traces back to the early days of communication systems to answer frequently asked questions efficiently.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>What is your privacy policy?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Our privacy policy outlines how we collect, use, and protect your personal information. You can view it on our Privacy Policy page.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>How can I contact customer service?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>You can reach customer service via our contact form, email, or phone for any inquiries.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>How does this service work?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>We provide a platform to streamline your needs, offering easy-to-navigate solutions for your convenience.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>What are your business hours?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Our business hours are Monday to Friday, 9 AM to 6 PM. We are closed on weekends and holidays.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Do you offer international shipping?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, we offer international shipping. Delivery times may vary based on the destination.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- buying -->
+    <div id="buying" class="accordion-section" style="display: none;">
+        <div class="accordion">
+            <div class="accordion-header open">
+                <span>How do I place an order?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body" style="display: block;">
+                <p>Simply add items to your cart, proceed to checkout, and follow the payment instructions.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I cancel my order?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, you can cancel your order within 24 hours of purchase by contacting our support team.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Do you offer discounts?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, we offer seasonal discounts and promotional codes. Subscribe to our newsletter for updates.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Is there a return policy?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>We accept returns within 30 days of purchase for unused items in their original packaging.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>How can I track my order?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>We accept returns within 30 days of purchase for unused items in their original packaging.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I change my shipping address after ordering?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>You can update your shipping address before the order is shipped. Contact support for assistance.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- payment -->
+    <div id="payment" class="accordion-section" style="display: none;">
+        <div class="accordion">
+            <div class="accordion-header open">
+                <span>What payment methods are accepted?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body" style="display: block;">
+                <p>We accept all major credit cards, PayPal, and bank transfers.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Is my payment information secure?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, all transactions are encrypted, and we follow industry-standard security protocols.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I pay using multiple payment methods?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Currently, we accept one payment method per transaction.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Are there additional fees for international payments?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>International payments may incur additional fees depending on your payment provider.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I request a refund?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, refunds can be requested within 14 days of purchase for eligible products.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>What happens if my payment fails?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>If your payment fails, please try again or contact your bank for more information.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- support -->
+    <div id="support" class="accordion-section" style="display: none;">
+        <div class="accordion">
+            <div class="accordion-header open">
+                <span>How do I reset my password?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body" style="display: block;">
+                <p>You can reset your password by clicking the "Forgot Password" link on the login page.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I speak to a live agent?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, you can chat with a live agent during our business hours via our website.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>How long does it take to get a response?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>We aim to respond to all inquiries within 24 hours during business days.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Is technical support available 24/7?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Our technical support team is available Monday to Friday from 9 AM to 6 PM.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>Can I get help installing software?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Yes, we provide installation guides and live support for all our software products.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>What should I do if I encounter a bug?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+                <p>Please report any bugs using our support form, and our team will investigate the issue promptly.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Add similar sections for Payment and Support -->
+    <div class="button-group">
+        <button class="btn-botton btn-primary">
+            <i class="fas fa-envelope"></i> Email Now
+        </button>
+        <button class="btn-botton btn-outline-pro">
+            <i class="fas fa-phone"></i> Contact Us
+        </button>
+    </div>
+
+</section>
+
+    <!-- Download App section Start Here -->
+    <section class="download-app-section">
+        <div class="download-app-content">
+          <h2>Download The App Free!</h2>
+          <p>Looking for a new job can be both exciting and daunting.<br>
+             Navigating the job market involves exploring various avenues.</p>
+          <div class="app-buttons">
+            <a href="#" class="app-store">
+              <img src="assets/app-store (1).png" alt="App Store">
+            </a>
+            <a href="#" class="google-play">
+              <img src="assets/play-store.png" alt="Google Play">
+            </a>
+          </div>
+        </div>
+        <div class="download-app-image">
+          <img src="assets/download.png" alt="Mobile App Preview">
+        </div>
+      </section>          
+      <!-- Download App section End Here -->
+
+
+          <!-- footer starts -->
+           <section class="footer-container">
+            <div class="flyer">
+              <div class="flyer-content">
+                  <div class="flyer-text">
+                      <h2>Looking for a career change? Browse our job listings now!</h2>
+                      <p>Sociosqu eros cras magna phasellus conubia semper netus lectus lacinia mattis sed.</p>
+                      <a href="#" class="apply-button">APPLY NOW</a>
+                  </div>
+                  <div class="flyer-image"></div>
+              </div>
+           </section>
+    
+
+          <footer class="footer">              
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2>HireHub</h2>
+                    <p>Est class vel si sit orci rutrum at morbi commodo pellentesque. Faucibus sociosqu suspendisse integer id justo enim letius eleifend volutpat suscipit consectetur.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="#">Full Time</a></li>
+                        <li><a href="#">Part Time</a></li>
+                        <li><a href="#">Freelance</a></li>
+                        <li><a href="#">Internship</a></li>
+                        <li><a href="#">Work From Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News & Article</a></li>
+                        <li><a href="#">Legal Notice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Newsletter</h2>
+                    <p>Get exclusive deals by signing up to our Newsletter.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HireHub, All rights reserved. Design by Tordue Donald.</p>
+                <p>
+                    <a href="#">Term of use</a> | 
+                    <a href="#">Privacy policy</a> | 
+                    <a href="#">Cookie policy</a>
+                </p>
+            </div>
+        </footer>
+        <!-- footer ends -->
+        
+        <script>
+            // Tab functionality
+            const tabs = document.querySelectorAll('.tab');
+            const accordionSections = document.querySelectorAll('.accordion-section');
+    
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    
+                    accordionSections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    document.getElementById(tab.getAttribute('data-tab')).style.display = 'block';
+                });
+            });
+    
+            // Accordion functionality
+            const accordions = document.querySelectorAll('.accordion-header');
+    
+            accordions.forEach(header => {
+                header.addEventListener('click', () => {
+                    const body = header.nextElementSibling;
+                    const icon = header.querySelector('.fas');
+                    
+                    if (header.classList.contains('open')) {
+                        body.style.display = 'none';
+                        header.classList.remove('open');
+                    } else {
+                        document.querySelectorAll('.accordion-body').forEach(body => body.style.display = 'none');
+                        document.querySelectorAll('.accordion-header').forEach(header => header.classList.remove('open'));
+                        body.style.display = 'block';
+                        header.classList.add('open');
+                    }
+                });
+            });
+        </script>
+
+    <!-- Javascrip for the Menu toggle  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuIcon = document.querySelector(".menu-icon");
+            const navList = document.querySelector(".nav-list");
+            const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+    
+            // Disable hover effects for dropdowns on smaller screens
+            const navItems = document.querySelectorAll('.nav-item.dropdown');
+    
+            // Disable all hover events by removing listeners
+            navItems.forEach(function(dropdown) {
+                dropdown.addEventListener('mouseenter', function(event) {
+                    event.preventDefault(); // Prevent any hover effect
+                });
+                dropdown.addEventListener('mouseover', function(event) {
+                    event.preventDefault(); // Disable hover behavior
+                });
+            });
+    
+            // Toggle mobile menu slide-in/out
+            menuIcon.addEventListener("click", function () {
+                if (navList.classList.contains("show")) {
+                    navList.classList.remove("show");
+                    navList.classList.add("hide");
+                } else {
+                    navList.classList.remove("hide");
+                    navList.classList.add("show");
+                }
+            });
+    
+            // Handle accordion click functionality for dropdowns
+            dropdownToggles.forEach(function (toggle) {
+                toggle.addEventListener("click", function (e) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    const dropdownMenu = this.nextElementSibling;
+    
+                    // If this dropdown is already open, close it
+                    if (dropdownMenu.classList.contains("show")) {
+                        dropdownMenu.classList.remove("show");
+                    } else {
+                        // Close any open dropdowns before opening the clicked one
+                        document.querySelectorAll(".dropdown-menu.show").forEach(function (menu) {
+                            menu.classList.remove("show");
+                        });
+                        dropdownMenu.classList.add("show");
+                    }
+                });
+            });
+    
+            // Close dropdowns when clicking outside
+            document.addEventListener("click", function (e) {
+                if (!e.target.closest(".nav-item.dropdown")) {
+                    document.querySelectorAll(".dropdown-menu.show").forEach(function (menu) {
+                        menu.classList.remove("show");
+                    });
+                }
+            });
+        });
+    </script>
+    
+    <!-- Include JS -->
+    <script src="job-list.js"></script>
+</body>
+</html>
